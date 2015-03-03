@@ -245,7 +245,7 @@ header .logo:before {
 }
 .main-navigation-header .main-navigation li a {
   font-family: "Montserrat", sans-serif;
-  color: rgba(255, 255, 255, 0.3);
+  color: #818C98;
   position: relative;
   -webkit-transition: all .6s;
           transition: all .6s;
@@ -284,6 +284,7 @@ header .logo:before {
   font-family: "Merriweather", sans-serif;
   position: relative;
   padding: 180px 0 135px 0;
+  height: 100vh;
 }
 #main-section .overlay {
   background-color: rgba(25, 33, 50, 0.92);
@@ -1729,7 +1730,7 @@ footer ul a {
   }
 
   #header-navigation {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: #fff;
   }
 
   footer {
