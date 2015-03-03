@@ -128,10 +128,6 @@ a:focus, a:active {
           transition: all .5s;
 }
 
-.navbar-right {
-  background-color: white;
-}
-
 .nav > li > a:hover, .nav > li > a:focus {
   background-color: transparent;
 }
@@ -249,7 +245,7 @@ header .logo:before {
 }
 .main-navigation-header .main-navigation li a {
   font-family: "Montserrat", sans-serif;
-  color: #818C98;
+  color: rgba(255, 255, 255, 0.3);
   position: relative;
   -webkit-transition: all .6s;
           transition: all .6s;
@@ -272,7 +268,7 @@ header .logo:before {
   z-index: 20;
 }
 .main-navigation-header .main-navigation li a:hover {
-  color: #3B475F;
+  color: #fff;
 }
 .main-navigation-header .main-navigation li a:hover:before {
   height: 3px;
