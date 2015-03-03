@@ -268,7 +268,7 @@ header .logo:before {
   z-index: 20;
 }
 .main-navigation-header .main-navigation li a:hover {
-  color: #fff;
+  color: #818C98;
 }
 .main-navigation-header .main-navigation li a:hover:before {
   height: 3px;
