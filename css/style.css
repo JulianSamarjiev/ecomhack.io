@@ -397,7 +397,6 @@ header .logo:before {
 #about {
   padding: 55px 0 95px 0;
   text-align: center;
-  display: none;
 }
 #about .row {
   margin-top: 70px;
