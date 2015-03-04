@@ -450,6 +450,10 @@ header .logo:before {
   text-align: center;
 }
 
+#schedule > p {
+  color: #818C98;
+}
+
 /* ============================== */
 /*		    features section  	  */
 /* ============================== */
@@ -1888,6 +1892,10 @@ footer ul a {
 
   #main-section .main-intro .medium-text {
     font-size: 24px;
+  }
+  
+  .description {
+    display: none;
   }
 
   h1 {
