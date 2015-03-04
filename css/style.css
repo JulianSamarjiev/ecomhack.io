@@ -48,7 +48,8 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: #fff;
   font-size: 16px;
-  line-height: 28px;
+  /*line-height: 28px;*/
+  text-align: justify;
 }
 
 h2 {
@@ -92,7 +93,7 @@ hr {
 }
 
 ul, li {
-  list-style: none;
+  list-style-position: inside;
 }
 
 a:hover {
@@ -104,8 +105,9 @@ a:focus, a:active {
 }
 
 .estimote-logo {
-  max-height: 50px;
-  max-width: 50px; 
+  height: 120px;
+  width: 200px; 
+  padding-left: 1em;
 }
 
 /* ============================== */
@@ -312,6 +314,7 @@ header .logo:before {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
+
 #main-section .main-intro .curved-text {
   color: #fff;
   font-family: "Montserrat", sans-serif;
@@ -440,12 +443,20 @@ header .logo:before {
 }
 
 /* ============================== */
+/*        Schedule section        */
+/* ============================== */
+
+#schedule {
+  text-align: center;
+}
+
+/* ============================== */
 /*		    features section  	  */
 /* ============================== */
 #event, #prices {
   background: url("../img/feature-bg.png") no-repeat fixed center bottom;
   background-size: cover;
-  padding: 80px 0;
+  padding: 5px 0;
   text-align: center;
 }
 #event hr, #prices hr {
@@ -454,9 +465,7 @@ header .logo:before {
 #event .main-text, #prices .main-text {
   max-width: 590px;
 }
-#event ul, #prices ul {
-  padding: 50px 0;
-}
+
 #event ul.sub-list, #prices ul.sub-list {
   padding: 0;
   font-size: 14px;
@@ -1724,6 +1733,7 @@ footer ul a {
     padding-bottom: 20px;
     border: none;
   }
+
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
