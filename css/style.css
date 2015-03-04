@@ -103,6 +103,11 @@ a:focus, a:active {
   outline: none;
 }
 
+.estimote-logo {
+  max-height: 50px;
+  max-width: 50px; 
+}
+
 /* ============================== */
 /*		    header  			  */
 /* ============================== */
